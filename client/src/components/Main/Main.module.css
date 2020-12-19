@@ -1,0 +1,48 @@
+.ActionMessage {
+  margin-bottom: 50px;
+}
+
+.Credits {
+  color: rgb(87, 25, 25);
+  font-size: 17px;
+}
+
+.Credits a {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(87, 25, 25);
+}
+
+.Icon {
+  height: 128px;
+  animation-duration: 1s;
+  animation-name: loading;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+    margin-left: 65%;
+  }
+
+  50% {
+    transform: rotate(15deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+    margin-left: 0%;
+  }
+}
+
+.IconCredits a {
+  text-decoration: none;
+  font-size: 12px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: rgb(131, 119, 99);
+  text-shadow: 10px;
+}

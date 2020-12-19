@@ -1,0 +1,12 @@
+{
+  "name": "car-expenses",
+  "version": "1.0.0",
+  "description": "- link to Heroku: [click this](https://secret-sierra-30633.herokuapp.com/)",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && npm install && node index.js",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build" 
+  },
+  "author": "",
+  "license": "ISC"
+}

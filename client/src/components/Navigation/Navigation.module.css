@@ -1,0 +1,223 @@
+.CreateMargin {
+  width: 100vw;
+  height: 50px;
+}
+
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  height: 50px;
+  width: 100vw;
+  overflow: hidden;
+  top: 0;
+  position: fixed;
+  margin-bottom: 50px;
+  z-index: 3;
+}
+
+.BackgroundBlur {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(90, 90, 90, 0.2);
+  backdrop-filter: blur(2px);
+  transition: opacity 0.2s ease-in-out;
+}
+
+.NavBar button {
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 50px;
+  width: 100px;
+  border: none;
+  background-color: white;
+}
+
+.LoggedIn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.NavBar .Burger {
+  cursor: pointer;
+  width: 45px;
+  position: absolute;
+  left: 0;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.Line1 {
+  text-align: center;
+  display: block;
+  width: 15px;
+  height: 2px;
+  background-color: black;
+  transition: transform 0.2s;
+}
+
+.Line2 {
+  display: block;
+  width: 15px;
+  height: 2px;
+  margin-top: 2px;
+  background-color: black;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+.Line3 {
+  display: block;
+  width: 15px;
+  height: 2px;
+  margin-top: 2px;
+  background-color: black;
+  transition: transform 0.2s;
+}
+
+.Line1Active {
+  text-align: center;
+  display: block;
+  width: 15px;
+  height: 2px;
+  background-color: black;
+  transition: transform 0.2s;
+  transform: rotate(45deg) translateY(3px) translateX(3px);
+}
+
+.Line2Active {
+  display: block;
+  width: 15px;
+  height: 2px;
+  margin-top: 2px;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.Line3Active {
+  display: block;
+  width: 15px;
+  height: 2px;
+  margin-top: 2px;
+  background-color: black;
+  transition: transform 0.2s;
+  transform: rotate(-45deg) translateY(-3px) translateX(3px);
+}
+
+.DropDownMenu {
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: transform 0.2s;
+  transform: translateY(-100%);
+}
+
+.DropDownMenuActive {
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: transform 0.2s;
+  transform: translateY(0%);
+}
+
+.DropDownMenuButton {
+  text-transform: uppercase;
+  height: 50px;
+  width: 100vw;
+  border: none;
+  background-color: white;
+}
+
+.DropDownMenuButtonUserName {
+  height: 50px;
+  width: 100vw;
+  border: none;
+  background-color: white;
+}
+
+.DropDownMenuButtonLink {
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 50px;
+  width: 100vw;
+  border: none;
+  background-color: white;
+}
+
+.DropDownMenuButtonLink:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.LogoutMenu {
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: transform 0.2s;
+  transform: translateY(-100%);
+}
+
+.LogoutMenuActive {
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: transform 0.2s;
+  transform: translateY(0%);
+}
+
+.BackToApp {
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 50px;
+  width: 100vw;
+  border: none;
+  background-color: white;
+}
+
+.BackToApp:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.FinalLogout {
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 50px;
+  width: 100vw;
+  border: none;
+  background-color: rgb(122, 1, 1);
+  color: white;
+}

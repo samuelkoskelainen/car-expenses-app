@@ -1,0 +1,185 @@
+.InputRow {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 5px;
+  background-image: linear-gradient(rgb(198, 132, 109), rgb(204, 138, 115));
+  border-radius: 15px;
+  padding-top: 20px;
+  border: 3px rgb(197, 67, 20) dotted;
+}
+
+.InputRowHeader {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 5px;
+  background-image: linear-gradient(rgb(198, 132, 109), rgb(204, 138, 115));
+  border-radius: 15px;
+  color: rgb(48, 13, 0);
+  border: 3px rgb(197, 67, 20) dotted;
+}
+
+.InputRow input {
+  height: 30px;
+  width: 250px;
+  margin: 2px 0;
+  border-radius: 15px;
+  border: none;
+}
+
+.InputRowButton {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 0 5px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(197, 67, 20);
+  color: white;
+  font-weight: bold;
+}
+
+.PlaceHolder {
+  display: block;
+  height: 50px;
+}
+
+.ErrorMessage {
+  color: rgb(15, 1, 1);
+  text-shadow: 0 0 0 rgb(150, 48, 48);
+  display: block;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Message {
+  color: rgb(4, 15, 1);
+  text-shadow: 0 0 0 rgb(48, 150, 48);
+  display: block;
+  height: 20px;
+  padding: 0;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.EditCard {
+  display: flex;
+  margin: 5px 5px;
+  background-image: linear-gradient(rgb(198, 132, 109), rgb(204, 138, 115));
+  border-radius: 15px;
+  border: 3px rgb(197, 67, 20) dotted;
+}
+
+.EditCard input {
+  height: 30px;
+  width: 250px;
+  margin: 2px 0;
+  border-radius: 15px;
+  border: none;
+}
+
+.EditCard input::placeholder {
+  color: lightgray;
+}
+
+.AllComponents {
+  width: 100%;
+}
+
+.DetailComponent {
+  display: flex;
+  flex-direction: column;
+  margin-top: -50px;
+  margin-bottom: 5px;
+}
+
+.Details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0 5px 5px;
+}
+
+.DeleteButton {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 5px auto auto;
+  font-weight: bold;
+}
+
+.DeleteButton button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.UpdateDropDownBtn {
+  background-color: rgb(197, 67, 20);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+.EditMode {
+  margin: 0 auto;
+}
+
+.DottedLine {
+  border-top: 3px dotted rgb(197, 67, 20);
+  width: 95%;
+  margin: 0 auto;
+}
+
+.EditDropDown {
+  display: flex;
+  flex-direction: column;
+}
+
+.EditCardUpdateElements {
+  display: flex;
+  flex-direction: column;
+}
+
+.UpdateButton {
+  margin: 5px 0;
+  background-color: rgb(20, 197, 100);
+  color: white;
+  border-color: rgb(16, 126, 66);
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+.UpdateMessage {
+  height: 20px;
+}
+
+.DeletedContainer {
+  display: block;
+  background-color: rgba(204, 138, 115, 0.4);
+  border-radius: 15px;
+  margin: 5px;
+  height: 120px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.DeletedContainer p {
+  padding-top: 45px;
+}
+
+.DeletedContainerDontShow {
+  display: none;
+  padding: 0;
+  margin: 0;
+}

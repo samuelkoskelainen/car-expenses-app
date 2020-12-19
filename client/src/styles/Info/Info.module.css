@@ -1,0 +1,52 @@
+.Container {
+  padding: 10px 0;
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(6, 6, 6));
+  color: white;
+  margin: 5px 5px;
+  border-radius: 15px;
+}
+
+.MainContainer {
+  padding: 10px 0;
+  background-color: rgb(150, 92, 221);
+  border: 3px solid rgb(81, 40, 131);
+  color: white;
+  margin: 5px 5px;
+  border-radius: 15px;
+}
+
+.Container button {
+  cursor: pointer;
+  margin: 0 5px;
+  margin-top: 10px;
+  height: 50px;
+  width: 200px;
+  border-width: 2px;
+  border-color: white;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.ErrorMessage {
+  color: rgb(15, 1, 1);
+  text-shadow: 0 0 0 rgb(150, 48, 48);
+  display: block;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Message {
+  color: rgb(4, 15, 1);
+  text-shadow: 0 0 0 rgb(48, 150, 48);
+  display: block;
+  height: 20px;
+  padding: 0;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}

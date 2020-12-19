@@ -1,0 +1,17 @@
+.Main {
+  font-size: xxx-large;
+  font-weight: bolder;
+  background-color: white;
+  border-radius: 25px;
+  padding: 15px 10px;
+  border: 3px dotted black;
+  margin: 5px 5px;
+}
+
+.Normal {
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px 10px;
+  margin: 5px 5px;
+  border: 3px dotted black;
+}
