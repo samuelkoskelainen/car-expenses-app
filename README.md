@@ -1,6 +1,6 @@
 # Car Expenses Application
 
-- link to Heroku: [click this](https://secret-sierra-30633.herokuapp.com/)
+- link to Heroku: [click this](https://car-expenses-app.herokuapp.com/)
 
 ## Car Expenses Application
 
